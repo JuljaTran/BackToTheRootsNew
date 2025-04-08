@@ -10,8 +10,10 @@ public class PlayerMovement : MonoBehaviour
     public float jumpForce;
     public float jumpCooldown;
     public float airMultiplier;
+    public float doubleJumpForce;
     bool readyToJump;
     bool canDoubleJump;
+
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
@@ -123,7 +125,7 @@ public class PlayerMovement : MonoBehaviour
     private void DoubleJump()
     {
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
-        rb.AddForce(transform.up * (jumpForce * 1.2f), ForceMode.Impulse);
+        rb.AddForce(transform.up * (jumpForce * doubleJumpForce), ForceMode.Impulse);
         canDoubleJump = false;
     }
 
