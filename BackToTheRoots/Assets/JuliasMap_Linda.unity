@@ -247,6 +247,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 845044056}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &22908134
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.1643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.1643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.1643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.4664
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597797642291402748, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3406669230807977286, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
+      propertyPath: m_Name
+      value: Nest_03
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b6fa8e078ad67345b56b5621a65ff89, type: 3}
 --- !u!1001 &74471313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -258,6 +327,10 @@ PrefabInstance:
     - target: {fileID: 6996517703929365550, guid: 8bc1d7ad1fe1ff8479bd91e2606651a9, type: 3}
       propertyPath: m_Name
       value: PP_Apple_Tree_Picked_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996517703929365551, guid: 8bc1d7ad1fe1ff8479bd91e2606651a9, type: 3}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7661554685454671508, guid: 8bc1d7ad1fe1ff8479bd91e2606651a9, type: 3}
       propertyPath: m_LocalScale.x
@@ -596,6 +669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Daisy_Flower_Orange_01
       objectReference: {fileID: 0}
+    - target: {fileID: 7843530701610933709, guid: 76712f31be82e744bacfa2e06912f960, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -664,6 +741,10 @@ PrefabInstance:
     - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
       propertyPath: m_Name
       value: PP_Leaf_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -978,6 +1059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Leaf_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1112,6 +1197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Fly_Agaric_10
       objectReference: {fileID: 0}
+    - target: {fileID: 7132897625415761534, guid: 12a5a521df2917b4d972acb5a5b74498, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7617544330975274180, guid: 12a5a521df2917b4d972acb5a5b74498, type: 3}
       propertyPath: m_LocalScale.x
       value: 14.126
@@ -1233,6 +1322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Water_Lily_Leaf_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2120318398092112482, guid: 14383ef9ade67374881a639090a1c5df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1322,6 +1415,10 @@ PrefabInstance:
     - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
       propertyPath: m_Name
       value: PP_Leaf_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1414,11 +1511,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d34bc207b2df1e44b52b15f79e3b874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 5
   groundDrag: 8
   jumpForce: 8
   jumpCooldown: 0.25
   airMultiplier: 0.4
+  doubleJumpForce: 0.8
   jumpKey: 32
   groundCheck: {fileID: 22234988}
   groundCheckRadius: 0.3
@@ -1550,6 +1648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Leaf_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1573,7 +1675,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848175304}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fbc7fe09d148464fbb1b2eb7f47c0ff, type: 3}
   m_Name: 
@@ -1736,6 +1838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Daisy_Flower_Blue_01
       objectReference: {fileID: 0}
+    - target: {fileID: 6725602219088177323, guid: a5b44b52f9df2434e91fe1a8d5e55d59, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1804,6 +1910,10 @@ PrefabInstance:
     - target: {fileID: 2120318398092112482, guid: 14383ef9ade67374881a639090a1c5df, type: 3}
       propertyPath: m_Name
       value: PP_Water_Lily_Leaf_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120318398092112482, guid: 14383ef9ade67374881a639090a1c5df, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2126,6 +2236,38 @@ Transform:
   - {fileID: 853042745}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1089664248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+  m_PrefabInstance: {fileID: 1306112640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1089664249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089664248}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbc7fe09d148464fbb1b2eb7f47c0ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
+--- !u!114 &1089664250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089664248}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7ff21945dd84879919a08c0df6a0e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  distance: 5
 --- !u!1001 &1128774015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2137,6 +2279,10 @@ PrefabInstance:
     - target: {fileID: 7016139971621704968, guid: 32f8ac91df240eb4995845bb14708226, type: 3}
       propertyPath: m_Name
       value: PP_Fly_Agaric_09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7016139971621704968, guid: 32f8ac91df240eb4995845bb14708226, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7644163883021504434, guid: 32f8ac91df240eb4995845bb14708226, type: 3}
       propertyPath: m_LocalScale.x
@@ -2290,6 +2436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Daisy_Flower_Blue_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6725602219088177323, guid: a5b44b52f9df2434e91fe1a8d5e55d59, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2359,11 +2509,90 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Mushroom_02
       objectReference: {fileID: 0}
+    - target: {fileID: 8859322238791809123, guid: 14cc1f40a85ea7948b8f35ea569503f8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14cc1f40a85ea7948b8f35ea569503f8, type: 3}
+--- !u!1001 &1306112640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.5730731
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.5730731
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5730731
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460951453680282497, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_Name
+      value: PP_Leaf_03 (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1089664250}
+    - targetCorrespondingSourceObject: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1089664249}
+  m_SourcePrefab: {fileID: 100100000, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
 --- !u!1 &1447760647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2406,6 +2635,10 @@ PrefabInstance:
     - target: {fileID: 7416420397756501175, guid: cdb094a0488b039458baa887470a85dc, type: 3}
       propertyPath: m_Name
       value: PP_Mushroom_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416420397756501175, guid: cdb094a0488b039458baa887470a85dc, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7901490376971425293, guid: cdb094a0488b039458baa887470a85dc, type: 3}
       propertyPath: m_LocalScale.x
@@ -2712,6 +2945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Water_Lily_Leaf_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2120318398092112482, guid: 14383ef9ade67374881a639090a1c5df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2780,6 +3017,10 @@ PrefabInstance:
     - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
       propertyPath: m_Name
       value: PP_Leaf_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4272813983667089723, guid: d78bd207df5b51c45b26aeb14490a5c5, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3082,6 +3323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PP_Water_Lily_Leaf_01
       objectReference: {fileID: 0}
+    - target: {fileID: 2120318398092112482, guid: 14383ef9ade67374881a639090a1c5df, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3243,5 +3488,7 @@ SceneRoots:
   - {fileID: 848175303}
   - {fileID: 455699072}
   - {fileID: 834208952}
+  - {fileID: 1306112640}
   - {fileID: 631325832}
   - {fileID: 901681357}
+  - {fileID: 22908134}

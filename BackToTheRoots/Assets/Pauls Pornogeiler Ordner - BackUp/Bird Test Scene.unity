@@ -1202,7 +1202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d34bc207b2df1e44b52b15f79e3b874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 5
   groundDrag: 8
   jumpForce: 8
   jumpCooldown: 0.25
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   groundCheckRadius: 0.3
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   grounded: 0
   orientation: {fileID: 1237865669}
   screamThreshold: 0.3
