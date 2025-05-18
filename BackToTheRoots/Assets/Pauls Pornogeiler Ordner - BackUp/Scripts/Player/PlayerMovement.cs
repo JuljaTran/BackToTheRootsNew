@@ -49,8 +49,6 @@ public class PlayerMovement : MonoBehaviour
         readyToJump = true;
 
         animator = GetComponentInChildren<Animator>();
-
-        animator = GetComponentInChildren<Animator>();
         if (animator == null)
         {
             Debug.LogError("Animator wurde nicht gefunden!");
