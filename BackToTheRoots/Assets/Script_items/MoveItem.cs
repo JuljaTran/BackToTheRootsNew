@@ -2,21 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class MoveItem : MonoBehaviour
 {
     public float speed = 2f;
     public float distance = 5f;
 
     private Vector3 startPos;
+    private Vector3 lastPos;
+    public Vector3 deltaMove { get; private set; }
 
-    void Start()
+    private Rigidbody rb;
+
+    private void Start()
     {
+        rb = GetComponent<Rigidbody>();
+        rb.isKinematic = true; // WICHTIG
         startPos = transform.position;
+        lastPos = transform.position;
     }
 
-    void Update()
+    private void FixedUpdate()
     {
         float movement = Mathf.PingPong(Time.time * speed, distance);
-        transform.position = startPos + Vector3.right * movement;
+        Vector3 newPos = startPos + Vector3.right * movement;
+
+        deltaMove = newPos - lastPos;
+        lastPos = newPos;
+
+        rb.MovePosition(newPos); // Physikalische Bewegung!
     }
 }
