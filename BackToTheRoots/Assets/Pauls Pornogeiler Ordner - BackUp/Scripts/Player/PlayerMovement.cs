@@ -37,12 +37,24 @@ public class PlayerMovement : MonoBehaviour
     private string micName;
     private int sampleWindow = 128;
 
+    [Header("Animator")]
+    public Animator animator;
+
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
         readyToJump = true;
+
+        animator = GetComponentInChildren<Animator>();
+
+        animator = GetComponentInChildren<Animator>();
+        if (animator == null)
+        {
+            Debug.LogError("Animator wurde nicht gefunden!");
+        }
 
         // Mikrofon starten
         if (Microphone.devices.Length > 0)
@@ -73,6 +85,12 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Schrei erkannt → Double Jump!");
             DoubleJump();
         }
+
+        // Animator Parameter setzen
+        float speed = new Vector3(rb.velocity.x, 0, rb.velocity.z).magnitude;
+        animator.SetFloat("Speed", speed);
+        animator.SetBool("Grounded", grounded);
+        Debug.Log("Grounded: " + grounded + " | Speed: " + speed);
     }
 
     private void FixedUpdate()
