@@ -14,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     bool readyToJump;
     bool canDoubleJump;
 
+    //Platform movement
+    private MoveItem currentPlatform;
+
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
@@ -77,8 +80,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (currentPlatform != null)
+        {
+            rb.MovePosition(rb.position + currentPlatform.deltaMove);
+        }
         MovePlayer();
+        //Plattenbewegung
+        
     }
+
 
     private void MyInput()
     {
@@ -160,5 +170,23 @@ public class PlayerMovement : MonoBehaviour
         if (groundCheck == null) return;
         Gizmos.color = grounded ? Color.green : Color.red;
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+    }
+
+    // Handle platform movement
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.TryGetComponent<MoveItem>(out MoveItem platform))
+        {
+            currentPlatform = platform;
+            Debug.Log("Spieler steht auf Plattform: " + platform.name);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.TryGetComponent<MoveItem>(out MoveItem platform) && platform == currentPlatform)
+        {
+            currentPlatform = null;
+        }
     }
 }
