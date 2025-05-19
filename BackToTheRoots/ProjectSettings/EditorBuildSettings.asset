@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UI_Elly/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 47b18a76611af4291aa91be13d88b93d
   - enabled: 1
-    path: Assets/MainScene.unity
+    path: Assets/Scenes/Tutorial.unity
+    guid: 0a75fa97a215f45c58bf9ce47fc96d13
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
     guid: 1e42440a3cce1594eb459554f53e20ea
+  - enabled: 1
+    path: Assets/Scenes/Winner.unity
+    guid: b1169fde233db49cc85ac5cde7098366
   m_configObjects: {}

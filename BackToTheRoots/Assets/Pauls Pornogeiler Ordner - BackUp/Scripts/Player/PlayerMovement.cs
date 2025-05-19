@@ -91,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
         float speed = new Vector3(rb.velocity.x, 0, rb.velocity.z).magnitude;
         animator.SetFloat("Speed", speed);
         animator.SetBool("Grounded", grounded);
-        Debug.Log("Grounded: " + grounded + " | Speed: " + speed);
+        //Debug.Log("Grounded: " + grounded + " | Speed: " + speed);
     }
 
     private void FixedUpdate()

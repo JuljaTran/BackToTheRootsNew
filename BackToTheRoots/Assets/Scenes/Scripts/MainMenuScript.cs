@@ -22,15 +22,15 @@ public class MainMenu : MonoBehaviour
     {
         if (SceneTransitionManager.Instance != null)
         {
-            SceneTransitionManager.Instance.LoadSceneWithFade("MainScene");
+            SceneTransitionManager.Instance.LoadSceneWithFade("Tutorial");
         }
         else
         {
-            SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("Tutorial");
         }
         // Wenn das Spiel startet, sperre den Cursor und verstecke ihn
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void QuitGame()
